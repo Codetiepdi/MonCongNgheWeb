@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "c\u1ea9m t\u00fa c\u1ea7u",
+        "description": "hoa c\u1ea9m t\u00fa c\u1ea7u\r\n",
+        "image": "images\/camtucau.png"
+    },
+    {
+        "id": 2,
+        "name": "Hoa h\u1ed3ng",
+        "description": "Hoa h\u1ed3ng",
+        "image": "images\/hoahong.webp"
+    },
+    {
+        "id": 3,
+        "name": "hoa c\u00fac lan nh\u1ecf",
+        "description": "hoa c\u00fac lan nh\u1ecf",
+        "image": "images\/cuclanho.webp"
+    },
+    {
+        "id": 4,
+        "name": "hoa c\u1ea9m ch\u01b0\u1edbng",
+        "description": "hoa c\u1ea9m ch\u01b0\u1edbng",
+        "image": "images\/hoacamchuong.webp"
+    },
+    {
+        "id": 5,
+        "name": "hoa c\u00fac \u0111\u1ea1i",
+        "description": "hoa c\u00fac \u0111\u1ea1i",
+        "image": "images\/hoacucdai.webp"
+    },
+    {
+        "id": 6,
+        "name": "hoa \u0111\u00e8n l\u1ed3ng",
+        "description": "hoa \u0111\u00e8n l\u1ed3ng",
+        "image": "images\/hoadenlong.webp"
+    },
+    {
+        "id": 7,
+        "name": "hoa \u0111\u1ed3ng ti\u1ec1n",
+        "description": "hoa \u0111\u1ed3ng ti\u1ec1n",
+        "image": "images\/hoadongtien.webp"
+    }
+]
