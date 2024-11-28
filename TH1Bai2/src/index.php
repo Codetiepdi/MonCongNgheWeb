@@ -17,7 +17,6 @@ if (!empty($current_question)) {
     $parsed_questions[] = $current_question;
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>

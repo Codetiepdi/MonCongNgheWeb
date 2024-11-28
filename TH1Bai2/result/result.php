@@ -8,7 +8,6 @@ foreach ($questions as $line) {
         $answers[] = trim(substr($line, strpos($line, ":") + 1));
     }
 }
-
 $score = 0;
 foreach ($_POST as $key => $userAnswer) {
     $questionNumber = (int)filter_var($key, FILTER_SANITIZE_NUMBER_INT);
@@ -17,7 +16,6 @@ foreach ($_POST as $key => $userAnswer) {
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
