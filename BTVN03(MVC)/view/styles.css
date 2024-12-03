@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: #e8eff1;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .container {
+    width: 100%;
+    max-width: 1100px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  .button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .button-secondary {
+    background-color: #f0ad4e;
+  }
+  
+  .button-secondary:hover {
+    background-color: #ec971f;
+  }
+.add-button {
+    display: inline-block;
+    background-color: #007bff; 
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none; 
+    transition: background-color 0.3s, transform 0.2s;
+}
+.add-new-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+.add-new-button:active {
+    transform: translateY(0); 
+}
+  form {
+    padding: 25px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  form label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  form input[type="text"], 
+  form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  form input[type="text"]:focus, 
+  form input[type="email"]:focus {
+    border-color: #ff6f61;
+  }
+  form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  form .form-buttons {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 10px;
+  }
+  table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+  }
+  
+  table thead {
+    background-color: #ff6f61;
+    color: white;
+  }
+  
+  table th,
+  table td {
+    padding: 12px 18px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+  
+  table tbody tr:hover {
+    background-color: #ffedeb;
+  }
+  
+  table tbody td {
+    font-size: 14px;
+  }
+  #showFormBtn {
+    display: block;
+    margin: 0 auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #showFormBtn:hover {
+    background-color: #45a049;
+  }
+  footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    color: #777;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-weight: 300;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .mb-4 {
+    margin-bottom: 20px;
+  }
+  
+  .mt-4 {
+    margin-top: 20px;
+  }
+  @media (max-width: 768px) {
+    .container {
+      margin: 20px;
+      width: auto;
+    }
+  
+    form {
+      margin: 15px;
+    }
+  
+    table {
+      font-size: 12px;
+    }
+  
+    table th, table td {
+      padding: 8px;
+    }
+  }
+  
