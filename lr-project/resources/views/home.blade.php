@@ -152,7 +152,6 @@ table.table .avatar {
 	margin-top: 10px;
 	font-size: 13px;
 }    
-/* Custom checkbox */
 .custom-checkbox {
 	position: relative;
 }
